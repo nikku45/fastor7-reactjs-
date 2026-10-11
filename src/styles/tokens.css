@@ -1,0 +1,57 @@
+:root {
+  /* Assessment Exact Tokens */
+  --color-bg: #F7F3EB;
+  --color-surface: #FFFEFA;
+  --color-primary: #123C32;
+  --color-primary-hover: #0E2F27;
+  --color-primary-light: #EBF2EE;
+  --color-accent: #F97316;
+  --color-accent-hover: #EA580C;
+  --color-accent-subtle: #FFF7ED;
+  --color-text: #1F2925;
+  --color-text-secondary: #4B5563;
+  --color-muted: #6F7972;
+  --color-border: #E4E0D7;
+  --color-border-focus: #123C32;
+  --color-sage: #E6ECE4;
+  --color-sage-dark: #C9D5C6;
+  
+  /* Status Colors */
+  --color-success: #15803D;
+  --color-success-bg: #F0FDF4;
+  --color-error: #DC2626;
+  --color-error-bg: #FEF2F2;
+  --color-warning: #D97706;
+  --color-warning-bg: #FFFBEB;
+  
+  /* Geometry */
+  --radius-sm: 8px;
+  --radius-control: 12px;
+  --radius-card: 18px;
+  --radius-pill: 9999px;
+  
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(31, 41, 37, 0.05);
+  --shadow-card: 0 8px 24px rgba(31, 41, 37, 0.07);
+  --shadow-card-hover: 0 16px 36px rgba(31, 41, 37, 0.12);
+  --shadow-float: 0 20px 48px rgba(18, 60, 50, 0.16);
+  --shadow-modal: 0 25px 60px -15px rgba(18, 60, 50, 0.25);
+
+  /* Typography */
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-serif: 'Playfair Display', Georgia, serif;
+  
+  /* Spacing Rhythm (8px base) */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+  --space-3xl: 64px;
+
+  /* Transitions */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-spring: 400ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
